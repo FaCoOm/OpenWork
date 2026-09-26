@@ -1,0 +1,30 @@
+{
+  "name": "openworks-contracts",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Smart contracts and tests for OpenWorks verifiable grant and bounty allocator",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.ts",
+    "deploy:hsk": "hardhat run scripts/deploy.ts --network hskTestnet",
+    "verify:hsk": "hardhat run scripts/verify-hsk.ts --network hskTestnet",
+    "wallet:generate": "ts-node scripts/generate-hsk-wallet.ts",
+    "simulate": "hardhat run scripts/simulate.ts"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.7",
+    "@nomicfoundation/hardhat-ethers": "^3.0.6",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.11",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.0.2",
+    "@types/chai": "^4.3.14",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^20.12.7",
+    "chai": "^4.3.7",
+    "ethers": "^6.13.0",
+    "hardhat": "^2.22.18",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
