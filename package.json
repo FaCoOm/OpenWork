@@ -1,0 +1,17 @@
+{
+  "name": "openwork-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test:contracts": "npm run --prefix contracts test",
+    "test:core": "npm run --prefix packages/core test",
+    "test:all": "npm run test:contracts && npm run test:core",
+    "build:core": "npm run --prefix packages/core build",
+    "build:web": "npm run --prefix web build",
+    "dev:web": "npm run --prefix web dev",
+    "demo:simulate": "npm run --prefix contracts simulate",
+    "deploy:hsk": "npm run --prefix contracts deploy:hsk",
+    "verify:hsk": "npm run --prefix contracts verify:hsk",
+    "wallet:generate": "npm run --prefix contracts wallet:generate"
+  }
+}
