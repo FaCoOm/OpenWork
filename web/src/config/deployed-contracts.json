@@ -1,0 +1,19 @@
+{
+  "network": "hskTestnet",
+  "chainId": "133",
+  "isHskNetwork": true,
+  "explorerBaseUrl": "https://testnet-explorer.hskchain.net",
+  "rpcUrl": "https://testnet.hsk.xyz",
+  "token": "0x6eF665E77c12444a88D228246E9180790A731D07",
+  "treasury": "0xB50b7B22DFaF8bA1eD90467C7DA68DaCEcbA0463",
+  "steward": "0xE62Cd659FE1b64D018292432117009AB5921987a",
+  "champion": "0xE62Cd659FE1b64D018292432117009AB5921987a",
+  "maintainer": "0xE62Cd659FE1b64D018292432117009AB5921987a",
+  "contributor": "0xE62Cd659FE1b64D018292432117009AB5921987a",
+  "primaryRepo": "openwork/core-engine",
+  "maxBountyPerTicket": "500.0",
+  "maxSpendPerRound": "2000.0",
+  "minUncommittedReserve": "1000.0",
+  "mandateExpiry": 1798170612,
+  "timestamp": "2026-09-26T03:50:18.974Z"
+}
